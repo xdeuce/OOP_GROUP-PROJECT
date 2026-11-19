@@ -5,7 +5,7 @@ public abstract class InventoryItem{
     private int quantity;
     private double unitPrice;
     private int reorderLevel;
-    private static final int DEFAULT_REORDER_THRESHOLD = 10;
+    public static final int DEFAULT_REORDER_THRESHOLD = 10;
 
     public InventoryItem(String name, String itemId, int quantity, double unitPrice) {
         
